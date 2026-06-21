@@ -5,12 +5,10 @@ using namespace std;
 int main()
 {
     string name, password;
-    cout<<""Enter Name : " ;
+    cout<<"Enter name : ";
     cin >> name;
-
-    cout<<endl;
-    cout<<"Enter password :";
-    cin>> password;
+    cout<<"\nEnter password : ";
+     cin>> password;
 cout<<endl;
     if (login(name, password)) {
         cout << "Success!" << endl;
